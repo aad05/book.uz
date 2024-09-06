@@ -1,9 +1,13 @@
-import { Button } from "./components/ui/button";
+import Flayer from "./components/flayer";
+import Navbar from "./components/navbar";
+import { Toaster } from "@/components/ui/sonner";
 
 function App() {
 	return (
-		<div className="flex w-full h-screen items-center justify-center">
-			<Button variant="link">Hello</Button>
+		<div>
+			<Toaster />
+			<Navbar />
+			<Flayer />
 		</div>
 	);
 }
